@@ -19,6 +19,7 @@ const HomePage = () => {
     const price = parseInt(item.price.replace(/[^\d]/g, ''));
     return sum + price;
   }, 0);
+  const isTaleb = false;
 
   // Lọc dữ liệu
   const filteredData = classData.filter(item => {
